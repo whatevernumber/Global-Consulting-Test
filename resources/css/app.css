@@ -1,0 +1,16 @@
+/* Roboto Font */
+@font-face {
+    font-family: "Roboto";
+    src: local("../fonts"),
+    url("../fonts/roboto.woff2") format("woff2"),
+    url("../fonts/roboto.woff") format("woff");
+    font-weight: 400 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #edf2f7;
+}
+
