@@ -46,7 +46,7 @@ const prepare_json = function () {
     return JSON.stringify(inputs.value)
 }
 
-let path = '/create'
+let path = '/products/create'
 
 // Changes url for updating requests
 if (props.product.id) {

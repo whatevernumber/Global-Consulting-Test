@@ -9,7 +9,7 @@
     // Sends delete request
     const delete_product = function () {
         emit('delete');
-        router.delete('products/delete/' + props.product.id)
+        router.delete('/products/delete/' + props.product.id)
     }
 
 </script>
@@ -57,6 +57,7 @@
     .product_card {
         display: flex;
         flex-direction: column;
+        row-gap: 10px;
     }
 
     .product_buttons {

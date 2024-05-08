@@ -23,6 +23,7 @@
     .control_button {
         display: flex;
         align-items: center;
+        justify-content: center;
         width: 20px;
         height: 20px;
         padding: 5px 5px;

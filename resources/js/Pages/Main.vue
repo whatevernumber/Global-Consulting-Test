@@ -75,7 +75,7 @@ let clear_edit = function () {
                             {{ (product.status_id === 1 ? 'Доступен' : 'Недоступен' ) }}
                         </td>
                         <td>
-                            <p v-for="data in JSON.parse(product.data)">
+                            <p class='attribute' v-for="data in JSON.parse(product.data)">
                                 <span class="attribute_title">{{ data.type }}: </span> {{ data.value }}
                             </p>
                         </td>
@@ -150,8 +150,8 @@ let clear_edit = function () {
     table td {
         padding: 15px 10px;
         text-align: center;
-        font-size: 16px;
         color: #6E6E6F;
+        font-size: 14px;
     }
 
     table th {
@@ -161,6 +161,10 @@ let clear_edit = function () {
         font-size: 12px;
         font-weight: normal;
         text-transform: uppercase;
+    }
+
+    .attribute:not(:last-child) {
+        margin-bottom: 5px;
     }
 
     .product_row {

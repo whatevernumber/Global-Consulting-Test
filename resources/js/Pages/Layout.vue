@@ -124,6 +124,7 @@
     }
 
     .user_name {
+        margin-bottom: 5px;
         color: #a0aec0;
         opacity: 70%;
         font-size: 14px;

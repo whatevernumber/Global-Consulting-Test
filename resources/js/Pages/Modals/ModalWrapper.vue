@@ -11,8 +11,8 @@
      position: absolute;
      top: 20%;
      left: 40%;
-     width: 650px;
-     min-height: 370px;
+     width: 550px;
+     min-height: 300px;
      padding: 25px 20px;
      background-color: #374050;
      display: flex;
