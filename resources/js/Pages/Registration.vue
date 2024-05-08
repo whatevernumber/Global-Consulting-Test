@@ -77,10 +77,12 @@ const form = useForm({
     .registration_label {
         display: flex;
         flex-direction: column;
+        row-gap: 5px;
         align-items: center;
     }
 
     .registration_input {
+        padding: 5px;
         min-width: 300px;
         border: 2px solid #718096;
         border-radius: 5px;

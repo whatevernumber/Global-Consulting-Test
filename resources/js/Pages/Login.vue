@@ -59,6 +59,7 @@ const form = useForm({
     .login_label {
         display: flex;
         flex-direction: column;
+        row-gap: 5px;
         align-items: center;
     }
 
