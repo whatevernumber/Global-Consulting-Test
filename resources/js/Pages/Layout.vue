@@ -83,7 +83,6 @@
     }
 
     .main_header {
-        width: 100%;
         padding: 20px 15px 10px;
         display: flex;
         justify-content: space-between;
