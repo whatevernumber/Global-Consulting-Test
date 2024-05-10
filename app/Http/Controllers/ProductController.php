@@ -46,7 +46,7 @@ class ProductController extends Controller
         $data = $request->validated();
 
         // checks if the auth user tries to update the article and if user's role is admin to do that
-        if(!$request->user()->can('update', $product)) {
+        if (!$request->user()->can('update', $product)) {
             return to_route('products.all')->withErrors(['article' => 'Только администратор может менять артикул!']);
         };
 

@@ -31,8 +31,7 @@ class ProductTest extends TestCase
             'article' => $product['article'],
             'name' => $product['name'],
             'status_id'=> $product['status_id'],
-            ]
-        );
+        ]);
     }
 
     /**
@@ -58,7 +57,7 @@ class ProductTest extends TestCase
             'article' => 'test001',
             'name' => $product->name,
             'status_id' => $product->status_id,
-            ]);
+        ]);
     }
 
     /**
@@ -85,7 +84,7 @@ class ProductTest extends TestCase
             'article' => $product->article,
             'name' => $product->name,
             'status_id' => $product->status_id,
-            ]);
+        ]);
     }
 
     /**

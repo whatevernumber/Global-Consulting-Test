@@ -29,7 +29,8 @@ class Product extends Model
     /**
      * Scope a query to include only available products
      */
-    public function scopeAvailable(Builder $query) {
+    public function scopeAvailable(Builder $query)
+    {
         $query->where('status_id', '=', '1');
     }
 }

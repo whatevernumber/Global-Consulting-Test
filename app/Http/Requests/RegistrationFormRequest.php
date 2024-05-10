@@ -28,7 +28,7 @@ class RegistrationFormRequest extends FormRequest
         ];
     }
 
-    public function messages():array
+    public function messages(): array
     {
         return [
             'name.required' => 'Введите имя пользователя',

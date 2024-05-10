@@ -28,7 +28,7 @@ class ProductFormRequest extends FormRequest
         ];
     }
 
-    public function messages():array
+    public function messages(): array
     {
         return [
             'name.required' => 'Введите название продукта',
