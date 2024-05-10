@@ -106,9 +106,6 @@ const remove_field = function (index) {
                             <option v-for="status in statuses" :value="status.id">
                                 {{ status.name }}
                             </option>
-                            <option value="3">
-                                Хе-хе
-                            </option>
                         </select>
                     </label>
                     <div class='validation_error' v-if="form.errors.status_id">{{ form.errors.status_id[0] }}</div>
