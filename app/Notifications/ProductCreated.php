@@ -39,7 +39,7 @@ class ProductCreated extends Notification implements ShouldQueue
         return (new MailMessage)
                     ->greeting('Привет!')
                     ->subject('Уведомление о новом продукте')
-                    ->line("Новый продукт {$this->product->name} добавлен в систему")
+                    ->line("Новый продукт {$this->product->name} добавлен в систему.")
                     ->attach(public_path('img/bears.jpg'))
                     ->action('Посмотреть список', url('products'));
     }
